@@ -1,0 +1,6 @@
+/dist/
+/node_modules
+/src/js/
+webpack.config.js
+webpack.babel.js
+webpack.index.js

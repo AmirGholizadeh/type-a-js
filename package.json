@@ -1,0 +1,43 @@
+{
+    "name": "typejs",
+    "version": "1.0.0",
+    "description": "a javascript library to give typing effects to the website",
+    "private": true,
+    "scripts": {
+        "webpack:ts": "webpack --watch",
+        "webpack:babel": "webpack --config webpack.babel.js --watch",
+        "compile:scss": "node-sass -w ./src/scss/main.scss -o ./dist/css"
+    },
+    "keywords": [
+        "type",
+        "typejs",
+        "javascript",
+        "typescript"
+    ],
+    "author": "Amir",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.8.7",
+        "@babel/plugin-proposal-class-properties": "^7.8.3",
+        "@babel/plugin-transform-typescript": "^7.8.7",
+        "@babel/preset-env": "^7.8.7",
+        "@babel/preset-typescript": "^7.8.3",
+        "@typescript-eslint/eslint-plugin": "^2.22.0",
+        "@typescript-eslint/parser": "^2.22.0",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-minify-simplify": "^0.5.1",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-loader": "^3.0.3",
+        "eslint-plugin-prettier": "^3.1.2",
+        "node-sass": "^4.13.1",
+        "prettier": "^1.19.1",
+        "prettier-loader": "^3.3.0",
+        "ts-loader": "^6.2.1",
+        "tslint": "^6.0.0",
+        "typescript": "^3.8.3",
+        "webpack": "^4.42.0",
+        "webpack-cli": "^3.3.11"
+    }
+}

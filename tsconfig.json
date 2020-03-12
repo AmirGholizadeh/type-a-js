@@ -1,0 +1,9 @@
+{
+    "files":["src/ts/TypeJS.ts",
+        "src/ts/interfaces/typeConfig.ts",
+        "src/ts/interfaces/UIConfig.ts",
+        "src/ts/interfaces/UIInterface.ts",
+        "src/ts/classes/UIController.ts",
+        "src/ts/functions/random.ts"
+    ]
+}
