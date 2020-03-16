@@ -3,7 +3,7 @@ import UIController from "./classes/UIController";
 import UIConfig from "./interfaces/UIConfig";
 import random from "./functions/random";
 import UIInterface from "./interfaces/UIInterface";
-
+import "./../css/main.css";
 export default class TypeJS {
   private config: typeConfig;
   private parentId: string;

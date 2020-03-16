@@ -24,6 +24,12 @@ module.exports = {
                 fix: true
             }
 
+        }, {
+            test: /\.css$/,
+            loader: [
+                "style-loader",
+                "css-loader"
+            ]
         }]
     }
 }
