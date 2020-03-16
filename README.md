@@ -5,7 +5,8 @@ can set configurations based on
 your need to have a proper typing effect in your beautiful projects!
 feel free to help me improve this library, this is my first library,
 so i'll surely need the help of fellow developers.
-
+## Install
+to install this package use the command `npm i type-a-js`
 ## Let's learn TypeJS now
 Configuration :
 ```
